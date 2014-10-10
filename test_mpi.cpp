@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
  
     if ( rank == 0 )
     {
-        std::cout << "Processor name: " << processor_name << "\n";
+        std::cout << "Processors name: " << processor_name << "\n";
     std::cout << "master (" << rank << "/" << numprocessors << ")\n";
     } else {
         std::cout << "slave  (" << rank << "/" << numprocessors << ")\n";
